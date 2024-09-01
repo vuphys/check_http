@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check HTTP or HTTPS</title>
+</head>
+<body>
+    <h1>Check if a Website is HTTP or HTTPS</h1>
+    <form action="/" method="post">
+        <input type="text" name="url" placeholder="Enter URL (e.g., http://example.com)">
+        <button type="submit">Check</button>
+    </form>
+
+    <!-- if protocol -->
+    <h2>Result:</h2>
+    <p>The website <strong>{{ url }}</strong> is using: <strong>{{ protocol }}</strong></p>
+    <!-- endif -->
+</body>
+</html>
